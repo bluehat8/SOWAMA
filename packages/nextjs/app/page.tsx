@@ -16,8 +16,8 @@ const Home: NextPage = () => {
     <div style={{
       backgroundImage: `url('${banner}')`,
     }}>
-      <img src="../public/images/banner.jpeg" alt="Imagen de paisaje" />
-     <h1 className="text-left px-10 py-6">
+      <img src="/images/banner.jpeg" alt="Imagen de paisaje" />
+      <h1 className="text-left px-10 py-6">
             <span className="block text-2xl mb-2">UN MUNDO SIEMPRE VERDE</span>
             {/* <span className="block text-4xl font-bold">Scaffold-ETH 2</span> */}
           </h1>
