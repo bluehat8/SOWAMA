@@ -15,10 +15,12 @@ const Home: NextPage = () => {
     <div>
       {/* Banner */}
       <div
-        className="relative w-full bg-cover bg-center"
+        className="relative bg-cover bg-center"
         style={{
           backgroundImage: "url('/images/banner.jpeg')",
-          height: "500px",
+          height: "300px",
+          width: "90vw",
+          margin: "auto"
         }}
       >
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
@@ -44,13 +46,13 @@ const Home: NextPage = () => {
           <div className="flex justify-center items-center gap-12 flex-col sm:flex-row">
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <BugAntIcon className="h-8 w-8 fill-secondary" />
-              <p>
+              {/* <p>
                 Tinker with your smart contract using the{" "}
                 <Link href="/debug" passHref className="link">
                   Debug Contracts
                 </Link>{" "}
                 tab.
-              </p>
+              </p> */}
             </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
