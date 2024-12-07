@@ -103,8 +103,8 @@ export const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex-grow mr-4">
-        <RainbowKitCustomConnectButton />
-        <FaucetButton />
+        {/* <RainbowKitCustomConnectButton /> */}
+        {/* <FaucetButton /> */}
       </div>
     </div>
   );

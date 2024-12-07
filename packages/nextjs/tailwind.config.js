@@ -4,62 +4,85 @@ module.exports = {
   plugins: [require("daisyui")],
   darkTheme: "dark",
   darkMode: ["selector", "[data-theme='dark']"],
+  // DaisyUI theme colors
   daisyui: {
     themes: [
       {
         light: {
-          primary: "#93BBFB",
+          primary: "#F4F6E9",
           "primary-content": "#212638",
-          secondary: "#DAE8FF",
+          secondary: "#afb7ab",
           "secondary-content": "#212638",
           accent: "#93BBFB",
           "accent-content": "#212638",
           neutral: "#212638",
           "neutral-content": "#ffffff",
           "base-100": "#ffffff",
-          "base-200": "#f4f8ff",
-          "base-300": "#DAE8FF",
+          "base-200": "#E5E9E1",
+          "base-300": "#afb7ab",
           "base-content": "#212638",
           info: "#93BBFB",
           success: "#34EEB6",
           warning: "#FFCF72",
           error: "#FF8863",
+
           "--rounded-btn": "9999rem",
-          ".tooltip": { "--tooltip-tail": "6px" },
-          ".link": { textUnderlineOffset: "2px" },
-          ".link:hover": { opacity: "80%" },
+
+          ".tooltip": {
+            "--tooltip-tail": "6px",
+          },
+          ".link": {
+            textUnderlineOffset: "2px",
+          },
+          ".link:hover": {
+            opacity: "80%",
+          },
         },
       },
       {
         dark: {
-          primary: "#212638",
-          "primary-content": "#F9FBFF",
-          secondary: "#323f61",
-          "secondary-content": "#F9FBFF",
-          accent: "#4969A6",
-          "accent-content": "#F9FBFF",
-          neutral: "#F9FBFF",
-          "neutral-content": "#385183",
-          "base-100": "#385183",
-          "base-200": "#2A3655",
-          "base-300": "#212638",
-          "base-content": "#F9FBFF",
-          info: "#385183",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
-          "--rounded-btn": "9999rem",
-          ".tooltip": { "--tooltip-tail": "6px", "--tooltip-color": "oklch(var(--p))" },
-          ".link": { textUnderlineOffset: "2px" },
-          ".link:hover": { opacity: "80%" },
+          primary: "#0D1117", // Fondo principal más oscuro
+          "primary-content": "#C9D1D9", // Texto claro
+          secondary: "#161B22", // Secundario aún más profundo
+          "secondary-content": "#8B949E", // Texto secundario más suave
+          accent: "#58A6FF", // Azul neón para acentos
+          "accent-content": "#F0F6FC", // Acentos claros
+          neutral: "#21262D", // Neutral para áreas generales
+          "neutral-content": "#C9D1D9", // Contenido neutral claro
+          "base-100": "#0D1117", // Fondo base oscuro
+          "base-200": "#161B22", // Fondo base secundario
+          "base-300": "#21262D", // Fondo base terciario
+          "base-content": "#F0F6FC", // Texto base claro
+          info: "#79C0FF", // Color de información brillante
+          success: "#56D364", // Verde claro para éxitos
+          warning: "#E3B341", // Amarillo cálido para advertencias
+          error: "#F85149", // Rojo brillante para errores
+
+          "--rounded-btn": "12px", // Bordes menos redondeados para un estilo más moderno
+
+          ".tooltip": {
+            "--tooltip-tail": "6px",
+            "--tooltip-color": "rgba(255, 255, 255, 0.85)",
+          },
+          ".link": {
+            textUnderlineOffset: "3px",
+            textDecorationColor: "#58A6FF", // Azul neón para subrayado
+          },
+          ".link:hover": {
+            opacity: "70%",
+          },
         },
       },
     ],
   },
   theme: {
     extend: {
-      boxShadow: { center: "0 0 12px -2px rgb(0 0 0 / 0.05)" },
-      animation: { "pulse-fast": "pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite" },
+      boxShadow: {
+        center: "0 0 20px -5px rgba(0, 0, 0, 0.5)", // Sombra más intensa
+      },
+      animation: {
+        "pulse-fast": "pulse 0.7s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
     },
   },
 };
