@@ -18,7 +18,7 @@ export const Footer = () => {
   const isLocalNetwork = targetNetwork.id === hardhat.id;
 
   return (
-    <div className="min-h-0 py-5 px-1 mb-11 lg:mb-0">
+    <div className="min-h-0 py-5 px-1 mb-11 lg:mb-0 bg-gradient-to-r from-green-950 via-transparent to-green-800">
       <div>
         <div className="fixed flex justify-between items-center w-full z-10 p-4 bottom-0 left-0 pointer-events-none">
           <div className="flex flex-col md:flex-row gap-2 pointer-events-auto">
@@ -54,7 +54,7 @@ export const Footer = () => {
             <span>·</span>
             <div className="flex justify-center items-center gap-2">
               <p className="m-0 text-center">
-                Built with <HeartIcon className="inline-block h-4 w-4" /> at
+                {/* Built with <HeartIcon className="inline-block h-4 w-4" /> at */}
               </p>
               <a
                 className="flex justify-center items-center gap-1"
@@ -69,7 +69,7 @@ export const Footer = () => {
             <span>·</span>
             <div className="text-center">
               <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="link">
-                Support
+                Contact us
               </a>
             </div>
           </div>
