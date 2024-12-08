@@ -1,80 +1,83 @@
-# 🏗 Scaffold-ETH 2
+# Solid Organic WAste MAnagement, SOWAMA
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+**SOWAMA** is a comprehensive decentralized platform designed to:
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+• Create a transparent, blockchain-powered organic waste management ecosystem.
+• Tokenize waste as valuable ecological assets.
+• Provide direct economic incentives for waste reduction and proper processing.
+• Enable verifiable tracking of ecological impact.
+• Democratize waste management through Web3 technologies.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
+Key Innovative Mechanisms:
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+• Tokenization of organic waste using blockchain technology.
+• Transparent, immutable waste processing tracking.
+• Direct economic rewards for waste processors, municipalities, and individuals.
+• Ecological impact measurement and verification.
+• Creation of a decentralized marketplace for waste-derived products.
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+## Authors
 
-## Requirements
+- [@LADYFER](
+https://www.github.com/LADYFER
+)
 
-Before you begin, you need to install the following tools:
+- [@MeMySSelfandI](
+https://www.github.com/MeMySSelfandI
+)
 
-- [Node (>= v18.18)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
+- [@Rocioegrajales](
+https://www.github.com/Rocioegrajales
+)
 
-## Quickstart
+- [@bluehat8](
+https://www.github.com/bluehat8
+)
 
-To get started with Scaffold-ETH 2, follow the steps below:
+## Deployment
 
-1. Install dependencies if it was skipped in CLI:
+To deploy this SOWAMA project run
 
-```
-cd my-dapp-example
-yarn install
-```
-
-2. Run a local network in the first terminal:
-
-```
-yarn chain
-```
-
-This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `packages/hardhat/hardhat.config.ts`.
-
-3. On a second terminal, deploy the test contract:
-
-```
-yarn deploy
+```bash
+  yarn install
 ```
 
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
-
-4. On a third terminal, start your NextJS app:
-
-```
-yarn start
+```bash
+  yarn deploy
 ```
 
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
+```bash
+  yarn start
+```
 
-Run smart contract test with `yarn hardhat:test`
-
-- Edit your smart contracts in `packages/hardhat/contracts`
-- Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
-- Edit your deployment scripts in `packages/hardhat/deploy`
+![Logo](
+https://firebasestorage.googleapis.com/v0/b/tiendaskd-779b1.appspot.com/o/sowama%2FLOGO-SOWAMA.png?alt=media&token=8e3f02ab-c3bb-4107-b93a-2ad86b318db8
+)
 
 
-## Documentation
+## Related
 
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
+Here are some related projects
 
-To know more about its features, check out our [website](https://scaffoldeth.io).
+[Awesome README](
+https://github.com/matiassingers/awesome-readme
+)
 
-## Contributing to Scaffold-ETH 2
 
-We welcome contributions to Scaffold-ETH 2!
+## Demo
 
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+Insert gif or link to demo
+
+
+## License
+
+[MIT](
+https://choosealicense.com/licenses/mit/
+)
+
+
+## SOWAMA Documentation
+
+[Documentation](
+https://firebasestorage.googleapis.com/v0/b/tiendaskd-779b1.appspot.com/o/sowama%2FDevpost.com.Hackaton.Questions-An.approach-Send.pdf?alt=media&token=68db3ac2-6b16-40bb-9c0e-479bad124144
+) 
