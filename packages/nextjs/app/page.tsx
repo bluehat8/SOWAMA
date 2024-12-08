@@ -19,9 +19,10 @@ const Home: NextPage = () => {
       <div
         className="relative bg-cover bg-center"
         style={{
-          backgroundImage: "url('/images/banner.jpeg')",
-          height: "300px",
-          width: "90vw",
+          backgroundImage: "url('/images/hero.jpg')",
+          height: "500px",
+          width: "100%",
+          opacity:"1",
           margin: "auto",
           borderRadius: "24px",
           boxShadow: "1px 13px 19px rgba(133, 130, 130, 0.836)"             
