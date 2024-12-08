@@ -41,5 +41,9 @@
   "packageManager": "yarn@3.2.3",
   "engines": {
     "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "framer-motion": "^11.13.1",
+    "lucide-react": "^0.468.0"
   }
 }

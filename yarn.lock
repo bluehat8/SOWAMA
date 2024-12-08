@@ -7488,6 +7488,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"framer-motion@npm:^11.13.1":
+  version: 11.13.1
+  resolution: "framer-motion@npm:11.13.1"
+  dependencies:
+    motion-dom: ^11.13.0
+    motion-utils: ^11.13.0
+    tslib: ^2.4.0
+  peerDependencies:
+    "@emotion/is-prop-valid": "*"
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  peerDependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: d5733ace2b44bb386c535bbe36006ad0a3bd3d4d0f1150e2c51e76fc577b798280043d9216e597954003fa9fc4a35fd0841fe37d285246b583040cb739547901
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:11.1.0":
   version: 11.1.0
   resolution: "fs-extra@npm:11.1.0"
@@ -9545,6 +9567,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:^0.468.0":
+  version: 0.468.0
+  resolution: "lucide-react@npm:0.468.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+  checksum: 88acf196b1dedb605deb94da0aae5af9cf545080501fda3d586db9087751225ef101e5cff8d3226614d3879dc0765d8fefeced9eff62ab01bd02f2bdccc4ad91
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
@@ -9978,6 +10009,20 @@ __metadata:
   version: 1.1.0
   resolution: "modern-ahocorasick@npm:1.1.0"
   checksum: 78b99840c9af086c1e36a594ee85bebd8c19d48e2ef31a67d1bad0e673ac12fc931e5961abb5b16daaf820af4923e700f76b1793b7413e18782230162866a0af
+  languageName: node
+  linkType: hard
+
+"motion-dom@npm:^11.13.0":
+  version: 11.13.0
+  resolution: "motion-dom@npm:11.13.0"
+  checksum: cc5df1e244ca0bb8f2492a9177e02fcae5b8ccc18cefbd71d2c7d3a18cf8e1aa630e02e04c1b1fa92a876bae7aa2b35dd84f416f4fda600ff5fa22622961b6a8
+  languageName: node
+  linkType: hard
+
+"motion-utils@npm:^11.13.0":
+  version: 11.13.0
+  resolution: "motion-utils@npm:11.13.0"
+  checksum: 0ebb405d859f64cb3711c42525536f9fe8aaee7f9386357ba4fd75ede9f27a868f4e6f14b821db7470c1ca15d07a6bb18918d891a32c50c515b07ba5e1d428ed
   languageName: node
   linkType: hard
 
@@ -11983,8 +12028,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
+    framer-motion: ^11.13.1
     husky: ~8.0.3
     lint-staged: ~13.2.2
+    lucide-react: ^0.468.0
   languageName: unknown
   linkType: soft
 
