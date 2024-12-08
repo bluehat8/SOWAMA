@@ -7,7 +7,7 @@ import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { Address } from "~~/components/scaffold-eth";
 import { RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { FaucetButton } from "~~/components/scaffold-eth";
-import CarouselText from "../components/inicio/CarouselText";
+import CarouselText from "./inicio/CarouselText";
 
 
 const Home: NextPage = () => {

@@ -35,10 +35,21 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
   // Get the deployed contract to interact with it after deploying.
   const yourContract = await hre.ethers.getContract<Contract>("YourContract", deployer);
   console.log("👋 Initial greeting:", await yourContract.greeting());
+
+
+  // Despliega el contrato Ensayo usando el nombre correcto
+  await deploy("Sowa", {
+    from: deployer,
+    args: ["0x9D0aF376e2004d860539B127d10A9563082E8B86"], // Reemplaza con los argumentos necesarios si los hay
+    log: true,
+    autoMine: true,
+});
+
+  // Obtén el contrato desplegado usando el nombre correcto
+  const ensayo = await hre.ethers.getContract<Contract>("Sowa", deployer);
+  console.log("👋 Sowa contrato desplegado:", ensayo.address);
 };
 
 export default deployYourContract;
 
-// Tags are useful if you have multiple deploy files and only want to run one of them.
-// e.g. yarn deploy --tags YourContract
-deployYourContract.tags = ["YourContract"];
+deployYourContract.tags = ["YourContract", "Sowa"];
