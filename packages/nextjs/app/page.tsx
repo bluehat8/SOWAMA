@@ -85,38 +85,33 @@ const Home: NextPage = () => {
   <div className="relative z-10 flex justify-center items-center gap-12 mt-12 mb-10 flex-col sm:flex-row">   
 
 <div className="w-1/2 pl-5">
-      <p className="text-l text-white">
-      <span className="text-3xl text-center">Abouts sowama</span><hr />
-      At our composting process, we are committed to sustainability and organic solid reducing waste.
-      Our mission is to transform organic materials into nutrient-rich soil that can be used to enrich gardens and support local agriculture.
-      We believe that composting is a simple yet powerful way to make a positive impact on the environment. By diverting organic materials 
-      from landfills, and with our token SOWA, we are able to create a closed-loop system that benefits both our community and the planet. 
-      </p>
+    <h2 className="text-3xl font-bold mb-4 text-white">About Sowama</h2>
+          <p className="text-white-300 mb-6">
+          At our composting process, we are committed to sustainability and organic solid reducing waste.
+           Our mission is to transform organic materials into nutrient-rich soil that can be used to enrich gardens and support local agriculture.
+          We believe that composting is a simple yet powerful way to make a positive impact on the environment. By diverting organic materials 
+          from landfills, and with our token SOWA, we are able to create a closed-loop system that benefits both our community and the planet. 
+            </p>
     </div>
 
     <div className="relative w-1/2 sm:w-96 h-96 bg-cover bg-center rounded-xl">
       <img
-        src="/images/img4SowamaTransparent.png"
-        alt="Sostenibilidad"
-        className="rounded-xl w-70 h-70 object-cover"
+        src="/images/img4SowamaTransparent.png"       
+        className="rounded-xl w-70 h-70 object-cover opacity-90"
       />
     </div>
   </div>
 </div>
 
  {/* Compost */}
- <div className="">
+ <div className="relative">
         <img
           src="/images/banner.jpeg')"
-          alt= ""
+          alt= "image compoastaje"
           className= "w-vw margin-auto shadow-1px 13px 19px rgba(133, 130, 130, 0.836) rounded-md"      
       />      
-  </div> 
-
-
-      {/* <AboutUs /> */}
-
-
+  </div>
+      <AboutUs />
       </div>
     </div>
   );
