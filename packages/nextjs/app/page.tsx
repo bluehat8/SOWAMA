@@ -7,6 +7,8 @@ import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { Address } from "~~/components/scaffold-eth";
 import { RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { FaucetButton } from "~~/components/scaffold-eth";
+import CarouselText from "../components/inicio/CarouselText";
+
 
 const Home: NextPage = () => {
   const { address: connectedAddress } = useAccount();
@@ -40,7 +42,8 @@ const Home: NextPage = () => {
               <Address address={connectedAddress} />
             </div>
 
-            <section className="bg-red-200 w-[90wv] h-68 pt-8 pb-8 flex justify-between gap-12 mt-12">
+            <section className="bg-gradient-to-r from-green-200 via-transparent to-green-200 w-[90wv] h-68 pt-8
+             flex justify-between gap-12 mt-12">
               <div className="bg-sky-100 w-60 h-56 pt-8 pb-8 flex flex-wrap justify-center shadow-xl">
                 {" "}
                 <FaucetButton />
@@ -52,15 +55,17 @@ const Home: NextPage = () => {
                 <RainbowKitCustomConnectButton />
               </div>
             </section>
-          </div>
+            <CarouselText />           
+          </div>         
+
         </div>
 
         {/* Sección adicional */}
-        <div className="bg-base-300 flex flex-col mt-10 sm:flex-row justify-center items-center gap-8 px-5 w-full">
+        <div className="bg-base-300 flex flex-col mt-16 sm:flex-row justify-center items-center gap-8 px-5 w-full">
           <div className="flex justify-center items-center gap-12 mt-10 mb-10 flex-col sm:flex-row">
             <div className="relative w-1/2 sm:w-96 h-96 bg-cover bg-center rounded-xl shadow-lg">
               <img
-                src="/images/img5Sowama.png"
+                src="/images/img4SowamaTransparent.png"
                 alt="Sostenibilidad"
                 className="rounded-xl shadow-lg w-96 h-96 object-cover"
               />
