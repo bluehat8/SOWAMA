@@ -42,9 +42,9 @@ const CarouselText = () => {
   
 
   return (
-    <div className="relative w-full h-20 mt-12 bg-lime-600 overflow-hidden flex items-center justify-center">
+    <div className="relative w-full h-20 mt-12 overflow-hidden flex items-center justify-center mb-8">
       {/* Gradiente de desvanecido */}
-      <div className="absolute inset-0 bg-gradient-to-r from-green-100 via-transparent to-green-100 pointer-events-none z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-green-900 via-transparent to-sky-900 pointer-events-none z-10" />
       
       <div 
         className="flex transition-transform duration-500 ease-in-out" 
@@ -55,7 +55,7 @@ const CarouselText = () => {
         {texts.map((text, index) => (
           <div 
             key={index} 
-            className="w-[33.33%] flex-shrink-0 text-center text-2xl font-bold px-4 flex items-center justify-center text-nowrap"
+            className="w-[33.33%] flex-shrink-0 text-center text-7xl text-gray-400 font-bold px-16 flex items-center justify-center text-nowrap"
           >
             {text}
           </div>

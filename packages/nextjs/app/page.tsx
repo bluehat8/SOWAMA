@@ -74,19 +74,23 @@ const Home: NextPage = () => {
 >
   {/* Añadimos una capa de degradé superpuesta */}
   <div 
-    className="absolute inset-0" 
-    style={{
-      background: `linear-gradient(to right, #1D4036, #467339)`,
-      opacity: 0.7, // Puedes ajustar la opacidad según prefieras
-      borderRadius: "24px"
-    }}
-  ></div>
+  className="absolute inset-0" 
+  style={{
+    background: `linear-gradient(to right, rgb(29, 64, 1), rgb(70, 115, 57))`,
+    opacity: 0.7,
+    borderRadius: "24px"
+  }}
+></div>
 
-  <div className="relative z-10 flex justify-center items-center gap-12 mt-12 mb-10 flex-col sm:flex-row">
-    <div className="w-1/2 pl-5">
-      <p className="text-2xl">
-        Somos una empresa dedicada a dar valor a sus residuos orgánicos, tránsformándolos y recompensándole por ellos.
-        Altamente comprometidos con el medio ambiente.
+  <div className="relative z-10 flex justify-center items-center gap-12 mt-12 mb-10 flex-col sm:flex-row">   
+
+<div className="w-1/2 pl-5">
+      <p className="text-l text-white">
+      <span className="text-3xl text-center">Abouts sowama</span><hr />
+      At our composting process, we are committed to sustainability and organic solid reducing waste.
+      Our mission is to transform organic materials into nutrient-rich soil that can be used to enrich gardens and support local agriculture.
+      We believe that composting is a simple yet powerful way to make a positive impact on the environment. By diverting organic materials 
+      from landfills, and with our token SOWA, we are able to create a closed-loop system that benefits both our community and the planet. 
       </p>
     </div>
 
@@ -94,34 +98,23 @@ const Home: NextPage = () => {
       <img
         src="/images/img4SowamaTransparent.png"
         alt="Sostenibilidad"
-        className="rounded-xl w-96 h-96 object-cover"
+        className="rounded-xl w-70 h-70 object-cover"
       />
     </div>
   </div>
 </div>
 
-
-
-
  {/* Compost */}
- <div
-        className="relative bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/images/banner1.jpeg')",
-          height: "400px",
-          width: "vw",
-          margin: "auto",
-          borderRadius: "24px",
-          boxShadow: "1px 13px 19px rgba(133, 130, 130, 0.836)"             
-        }}
-      >
-        {/* <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-10 rounded-3xl">          
-          <h1 className="text-white text-4xl font-bold text-center">UN MUNDO SIEMPRE VERDE</h1>
-        </div> */}
-      </div> 
+ <div className="">
+        <img
+          src="/images/banner.jpeg')"
+          alt= ""
+          className= "w-vw margin-auto shadow-1px 13px 19px rgba(133, 130, 130, 0.836) rounded-md"      
+      />      
+  </div> 
 
 
-      <AboutUs />
+      {/* <AboutUs /> */}
 
 
       </div>
