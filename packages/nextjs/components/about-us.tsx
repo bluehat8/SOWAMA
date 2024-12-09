@@ -13,20 +13,21 @@ const AboutUs = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-
         <div>
             <img
               src="/images/banner.jpeg"
               alt="Composting Process"
               className="w-full h-auto rounded-lg shadow-lg"
             />
+          
           </div>
+          <p className="text-black mb-6 text'4xl pl-20 -ml-24">
+          Get inspired by this backyard garden and start your own sustainable gardening journey today! Small steps like composting and growing your 
+          own produce can make a big difference.
+        </p>
           
           <div>           
-            {/* <p className="text-gray-300">
-              We believe that composting is a simple yet powerful way to make a positive impact on the environment. By diverting organic materials from landfills, we are able to create a closed-loop system that benefits both our community and the planet.
-            </p> */}
+           
           </div>
           
         </div>

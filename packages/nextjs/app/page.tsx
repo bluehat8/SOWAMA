@@ -28,8 +28,7 @@ const Home: NextPage = () => {
           boxShadow: "1px 13px 19px rgba(133, 130, 130, 0.836)"             
         }}
       >
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-10 rounded-3xl">          
-          {/* <h1 className="text-white text-4xl font-bold text-center">Cultivate sustainability, one compost at a time</h1> */}
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-10 rounded-3xl">        
         </div>
       </div>
 
@@ -104,20 +103,10 @@ const Home: NextPage = () => {
 </div>
 
  {/* Compost */}
- <div className="relative align-middle">
-        {/* <img
-          src="/images/banner.jpeg')"
-          // alt= "imagen compoastaje"
-          className= "w-vw margin-auto shadow-1px 13px 19px rgba(133, 130, 130, 0.836) rounded-md"          
-      />     */}
+ <div className="relative align-middle">  
               
-  </div> 
-  <p className="text-black mb-6 text'4xl pl-20 -ml-24">
-          Get inspired by this backyard garden and start your own sustainable gardening journey today! Small steps like composting and growing your 
-          own produce can make a big difference.
-    </p>
-      <AboutUs />
-      
+  </div>  
+      <AboutUs />      
   </div>
       
       

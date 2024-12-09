@@ -39,8 +39,8 @@ export const Footer = () => {
             </div>
        
             <div className="text-center">
-              <a href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA" target="_blank" rel="noreferrer" className="link">
-                Contact us
+              <a href="" target="_blank" rel="noreferrer" className="link">
+                Contact us <br /> 7585436873
               </a>
             </div>
           </div>
