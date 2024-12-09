@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         }}
       >
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-10 rounded-3xl">          
-          <h1 className="text-white text-4xl font-bold text-center">UN MUNDO SIEMPRE VERDE</h1>
+          {/* <h1 className="text-white text-4xl font-bold text-center">Cultivate sustainability, one compost at a time</h1> */}
         </div>
       </div>
 
