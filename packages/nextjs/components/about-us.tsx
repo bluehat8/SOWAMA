@@ -21,7 +21,7 @@ const AboutUs = () => {
             />
           
           </div>
-          <p className="text-black mb-6 text'4xl pl-20 -ml-24">
+          <p className="text-white mb-6 text'4xl pl-20 ml-20">
           Get inspired by this backyard garden and start your own sustainable gardening journey today! Small steps like composting and growing your 
           own produce can make a big difference.
         </p>
