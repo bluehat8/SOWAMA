@@ -72,7 +72,7 @@ const Home: NextPage = () => {
     boxShadow: "1px 13px 19px rgba(133, 130, 130, 0.836)"             
   }}
 >
-  {/* Añadimos una capa de degradé superpuesta */}
+  {/* Capa de degradé superpuesta */}
   <div 
   className="absolute inset-0" 
   style={{
@@ -85,8 +85,8 @@ const Home: NextPage = () => {
   <div className="relative z-10 flex justify-center items-center gap-12 mt-12 mb-10 flex-col sm:flex-row">   
 
 <div className="w-1/2 pl-5">
-    <h2 className="text-3xl font-bold mb-4 text-white">About Sowama</h2>
-          <p className="text-white-300 mb-6">
+    <h2 className="text-3xl font-bold mb-4 text-white from-green-200 via-transparent to-green-200">About SOW<span className="text-green-900">AMA</span></h2>
+          <p className="text-white mb-6">
           At our composting process, we are committed to sustainability and organic solid reducing waste.
            Our mission is to transform organic materials into nutrient-rich soil that can be used to enrich gardens and support local agriculture.
           We believe that composting is a simple yet powerful way to make a positive impact on the environment. By diverting organic materials 
@@ -97,23 +97,32 @@ const Home: NextPage = () => {
     <div className="relative w-1/2 sm:w-96 h-96 bg-cover bg-center rounded-xl">
       <img
         src="/images/img4SowamaTransparent.png"       
-        className="rounded-xl w-70 h-70 object-cover opacity-90"
+        className="rounded-xl w-70 h-70 object-cover opacity-80"
       />
     </div>
   </div>
 </div>
 
  {/* Compost */}
- <div className="relative">
-        <img
+ <div className="relative align-middle">
+        {/* <img
           src="/images/banner.jpeg')"
-          alt= "image compoastaje"
-          className= "w-vw margin-auto shadow-1px 13px 19px rgba(133, 130, 130, 0.836) rounded-md"      
-      />      
-  </div>
+          // alt= "imagen compoastaje"
+          className= "w-vw margin-auto shadow-1px 13px 19px rgba(133, 130, 130, 0.836) rounded-md"          
+      />     */}
+              
+  </div> 
+  <p className="text-black mb-6 text'4xl pl-20 -ml-24">
+          Get inspired by this backyard garden and start your own sustainable gardening journey today! Small steps like composting and growing your 
+          own produce can make a big difference.
+    </p>
       <AboutUs />
-      </div>
+      
+  </div>
+      
+      
     </div>
+    
   );
 };
 
